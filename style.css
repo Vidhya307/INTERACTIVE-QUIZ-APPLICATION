@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://cdn.dribbble.com/userupload/20236837/file/original-19f98a9ad32da1b8ef7bb1df5c22db87.gif");
+  background-position-x: right;
+}
+
+.quiz-container {
+  background: wheat;
+  padding: 30px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  
+
+}
+
+.question {
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+
+.options button {
+  background-color: rgb(82, 224, 17);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background-color: #d1e7dd;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#next-btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#score-container {
+  display: none;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.certificate {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
